@@ -113,7 +113,7 @@ class DatePicker(DateTimeInput):
         attrs = attrs.copy()
         attrs.update({
             'type': self.input_type,
-            'name': self.name
+            'name': name
         })
         input_attrs = self.build_attrs(self.attrs, attrs)
         if value != '':
